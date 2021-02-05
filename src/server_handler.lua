@@ -7,6 +7,9 @@ function module.init()
     local remote_function = Instance.new("RemoteFunction", remotes)
     local remote_event = Instance.new("RemoteEvent", remotes)
 
+    -- disable player walking
+    std.create("Humanoid", game.StarterPlayer, {WalkSpeed = 0})
+
     local balls = {}
 
     remote_function.OnServerInvoke = function(client, item, ...)
@@ -18,9 +21,9 @@ function module.init()
     remote_event.OnServerEvent:Connect(function(client, item, ...)
         local args = {...}
         if item == "x" then
-            balls[client.UserId]:translate_x(args[1])
+            balls[client.UserId]:apply_force_x(args[1])
         elseif item == "y" then
-            balls[client.UserId]:translate_y(args[1])
+            balls[client.UserId]:apply_force_y(args[1])
         end
     end)
 end
