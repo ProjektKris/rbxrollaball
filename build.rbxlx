@@ -1,12 +1,12 @@
 <roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Workspace" referent="11">
+	<Item class="Workspace" referent="RBX2512DF8A299744538813FFCF46FA5BF3">
 		<Properties>
 			<bool name="AllowThirdPartySales">false</bool>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="CollisionGroups">Default^0^7</string>
-			<Ref name="CurrentCamera">RBXC69E3EF5372747FAB54F4AA0C9B8778C</Ref>
+			<Ref name="CurrentCamera">RBX94E3588495F54E13A35EAC7F17CD3E4F</Ref>
 			<double name="DistributedGameTime">0</double>
 			<bool name="ExplicitAutoJoints">true</bool>
 			<float name="FallenPartsDestroyHeight">-500</float>
@@ -50,6 +50,7 @@
 				<Z>0</Z>
 			</Vector3>
 			<string name="Name">Workspace</string>
+			<token name="PhysicsSteppingMethod">0</token>
 			<Ref name="PrimaryPart">null</Ref>
 			<int64 name="SourceAssetId">-1</int64>
 			<bool name="StreamingEnabled">false</bool>
@@ -60,31 +61,31 @@
 			<bool name="TerrainWeldsFixed">true</bool>
 			<bool name="TouchesUseCollisionGroups">false</bool>
 		</Properties>
-		<Item class="Camera" referent="RBXC69E3EF5372747FAB54F4AA0C9B8778C">
+		<Item class="Camera" referent="RBX94E3588495F54E13A35EAC7F17CD3E4F">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>-4.9431591</X>
-					<Y>8.6579504</Y>
-					<Z>-5.98814106</Z>
-					<R00>-0.800720811</R00>
-					<R01>0.352122426</R01>
-					<R02>-0.484619498</R02>
+					<X>1.20908499</X>
+					<Y>12.79245</Y>
+					<Z>-8.37133312</Z>
+					<R00>-0.167346433</R00>
+					<R01>-0.584027827</R01>
+					<R02>0.794296443</R02>
 					<R10>-0</R10>
-					<R11>0.808996618</R11>
-					<R12>0.587813377</R12>
-					<R20>0.599037766</R20>
-					<R21>0.470674396</R21>
-					<R22>-0.647780418</R22>
+					<R11>0.805657804</R11>
+					<R12>0.592381418</R12>
+					<R20>-0.985898256</R20>
+					<R21>0.0991329178</R21>
+					<R22>-0.134823933</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<token name="FieldOfViewMode">0</token>
 				<CoordinateFrame name="Focus">
-					<X>-3.97392011</X>
-					<Y>7.48232365</Y>
-					<Z>-4.69258022</Z>
+					<X>-0.379511774</X>
+					<Y>11.6076841</Y>
+					<Z>-8.10168457</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -102,7 +103,7 @@
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
 		</Item>
-		<Item class="Part" referent="12">
+		<Item class="Part" referent="RBX8446A2A9DBC94756B899C1F7CFD085AD">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -179,8 +180,128 @@
 					<Z>512</Z>
 				</Vector3>
 			</Properties>
+			<Item class="Texture" referent="RBXA86D29B2FF98466B80C1C453F05A2DA2">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Color3 name="Color3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="Face">2</token>
+					<string name="Name">Back</string>
+					<float name="OffsetStudsU">0</float>
+					<float name="OffsetStudsV">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<float name="StudsPerTileU">8</float>
+					<float name="StudsPerTileV">8</float>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+					<float name="Transparency">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Texture" referent="RBX9AC2A3438AB84A2F92C1305CD14BA4EC">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Color3 name="Color3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="Face">4</token>
+					<string name="Name">Bottom</string>
+					<float name="OffsetStudsU">0</float>
+					<float name="OffsetStudsV">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<float name="StudsPerTileU">8</float>
+					<float name="StudsPerTileV">8</float>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+					<float name="Transparency">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Texture" referent="RBX9EC1E6868185444383F3DAA1C09FDA91">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Color3 name="Color3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="Face">5</token>
+					<string name="Name">Front</string>
+					<float name="OffsetStudsU">0</float>
+					<float name="OffsetStudsV">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<float name="StudsPerTileU">8</float>
+					<float name="StudsPerTileV">8</float>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+					<float name="Transparency">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Texture" referent="RBX9F1D27F2919747CAB2F5E9707B12311C">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Color3 name="Color3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="Face">3</token>
+					<string name="Name">Left</string>
+					<float name="OffsetStudsU">0</float>
+					<float name="OffsetStudsV">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<float name="StudsPerTileU">8</float>
+					<float name="StudsPerTileV">8</float>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+					<float name="Transparency">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Texture" referent="RBXCE5E715127D744D68BDE865B6DDB237A">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Color3 name="Color3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="Face">0</token>
+					<string name="Name">Right</string>
+					<float name="OffsetStudsU">0</float>
+					<float name="OffsetStudsV">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<float name="StudsPerTileU">8</float>
+					<float name="StudsPerTileV">8</float>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+					<float name="Transparency">0.899999976</float>
+				</Properties>
+			</Item>
+			<Item class="Texture" referent="RBX80C5478967E344FD9025CC6342947C2E">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Color3 name="Color3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<token name="Face">1</token>
+					<string name="Name">Top</string>
+					<float name="OffsetStudsU">0</float>
+					<float name="OffsetStudsV">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<float name="StudsPerTileU">8</float>
+					<float name="StudsPerTileV">8</float>
+					<BinaryString name="Tags"></BinaryString>
+					<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+					<float name="Transparency">0.899999976</float>
+				</Properties>
+			</Item>
 		</Item>
-		<Item class="Terrain" referent="RBXB5092A23B4434D50B7BD7AA16A2110E7">
+		<Item class="Terrain" referent="RBX9CDA9D27BB5447F79FAD65AFC63BE5EA">
 			<Properties>
 				<bool name="Anchored">true</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -270,8 +391,816 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				</Vector3>
 			</Properties>
 		</Item>
+		<Item class="Folder" referent="RBXCDBB837DA7024586877137AD63F072C1">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Players</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBXCF98E1D80805486B9AB7B9063DE913E6">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">MapBorder</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Part" referent="RBXE73FB4E57461457E9BC21D1A2120F99C">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>10</Y>
+						<Z>254</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<bool name="CanTouch">true</bool>
+					<bool name="CastShadow">true</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<bool name="Massless">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">p0</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>504</X>
+						<Y>20</Y>
+						<Z>4</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Texture" referent="RBX96FD91141F9644D9B26B8A7FF7DFD203">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">2</token>
+						<string name="Name">Back</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXC70DCFA1D85343E3A74C2563029810D5">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">4</token>
+						<string name="Name">Bottom</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXA63EA5D97E974C86AF90ADCD6C709D3C">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">5</token>
+						<string name="Name">Front</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX2E31E42BE1C044C494FCFD48C60CCD72">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">3</token>
+						<string name="Name">Left</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX80EAA2DB41884A909C8825ED608BA32C">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">0</token>
+						<string name="Name">Right</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX0BEA452FA9774C288D72527BDDA1BF86">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">1</token>
+						<string name="Name">Top</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Part" referent="RBXAFC26CFACCB646A9BE2B7599FD7F5EE7">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>254</X>
+						<Y>10</Y>
+						<Z>0</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<bool name="CanTouch">true</bool>
+					<bool name="CastShadow">true</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<bool name="Massless">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">p3</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>504</X>
+						<Y>20</Y>
+						<Z>4</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Texture" referent="RBX7FA6031B75B44CE29A5003FE94D8A1AB">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">2</token>
+						<string name="Name">Back</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXE6D7BC7271444EBBAC2ADC04040C089F">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">4</token>
+						<string name="Name">Bottom</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX76BE47DB98AB4941880ECC0C2A4E51C0">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">5</token>
+						<string name="Name">Front</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX897612CA9BD94151AAB2453F1E224FE8">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">3</token>
+						<string name="Name">Left</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX64D05E084ECD401DADEAE73CEFD0FD9F">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">0</token>
+						<string name="Name">Right</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXBA59BC03505845E5A569F48AB90AD339">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">1</token>
+						<string name="Name">Top</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Part" referent="RBX0BEE3B994C4B4B7ABF3BAA2EBCD02DC5">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>-254</X>
+						<Y>10</Y>
+						<Z>0</Z>
+						<R00>0</R00>
+						<R01>0</R01>
+						<R02>-1</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>1</R20>
+						<R21>0</R21>
+						<R22>0</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<bool name="CanTouch">true</bool>
+					<bool name="CastShadow">true</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<bool name="Massless">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">p1</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>504</X>
+						<Y>20</Y>
+						<Z>4</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Texture" referent="RBX45C41B77C970410580A00EDAD44725E6">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">2</token>
+						<string name="Name">Back</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX2C8561CAF58649F7BACF0594FF20ABF9">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">4</token>
+						<string name="Name">Bottom</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXEB0C8EFB3CF6477FA06076C496CFA0AD">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">5</token>
+						<string name="Name">Front</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXAE5EAEF602A246EFA80528AAF95DC9C5">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">3</token>
+						<string name="Name">Left</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXBF0E9CC7D2874A51AC6D4C19F59EBB38">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">0</token>
+						<string name="Name">Right</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXC29C2628E7E54715AECC3F45CA4E3CF4">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">1</token>
+						<string name="Name">Top</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Part" referent="RBXF932DF1DA4EF44889AE693958EF130F3">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<CoordinateFrame name="CFrame">
+						<X>0</X>
+						<Y>10</Y>
+						<Z>-254</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<bool name="CanTouch">true</bool>
+					<bool name="CastShadow">true</bool>
+					<int name="CollisionGroupId">0</int>
+					<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+					<PhysicalProperties name="CustomPhysicalProperties">
+						<CustomPhysics>false</CustomPhysics>
+					</PhysicalProperties>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">true</bool>
+					<bool name="Massless">false</bool>
+					<token name="Material">256</token>
+					<string name="Name">p2</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<int name="RootPriority">0</int>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="formFactorRaw">1</token>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>504</X>
+						<Y>20</Y>
+						<Z>4</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Texture" referent="RBXE45524F46F1B4FCB9983C9878290BE6A">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">2</token>
+						<string name="Name">Back</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX92E3929CBB264C388EC9F2B2E2058540">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">4</token>
+						<string name="Name">Bottom</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBXF784587A3F3B4F098E613C08828062A6">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">5</token>
+						<string name="Name">Front</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX5B3A4E6A109E4B50BB056AA7B5338687">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">3</token>
+						<string name="Name">Left</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX4BE7E4F97E8A4093947B3927C9494F6A">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">0</token>
+						<string name="Name">Right</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+				<Item class="Texture" referent="RBX65F2BBD41F33412ABDD9F584D715D531">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<token name="Face">1</token>
+						<string name="Name">Top</string>
+						<float name="OffsetStudsU">0</float>
+						<float name="OffsetStudsV">0</float>
+						<int64 name="SourceAssetId">-1</int64>
+						<float name="StudsPerTileU">8</float>
+						<float name="StudsPerTileV">8</float>
+						<BinaryString name="Tags"></BinaryString>
+						<Content name="Texture"><url>rbxassetid://1369654266</url></Content>
+						<float name="Transparency">0.899999976</float>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
 	</Item>
-	<Item class="SoundService" referent="10">
+	<Item class="SoundService" referent="RBX8834622652AF4DDBA683DC80CF2144D7">
 		<Properties>
 			<token name="AmbientReverb">0</token>
 			<BinaryString name="AttributesSerialize"></BinaryString>
@@ -284,7 +1213,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="NonReplicatedCSGDictionaryService" referent="RBXB4DF5EDE645B4BBE810A0F3E9F8AE06F">
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBX791EECD18AC446D1A00A6BCD4E607B2A">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">NonReplicatedCSGDictionaryService</string>
@@ -292,7 +1221,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="CSGDictionaryService" referent="RBX08D5DDAEE677452BB2CEC650A835019D">
+	<Item class="CSGDictionaryService" referent="RBXB61706A755924B74830E4C34935C6EA9">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">CSGDictionaryService</string>
@@ -300,7 +1229,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="Chat" referent="RBX55DF734D0B5A4998A331A21432F14E6A">
+	<Item class="Chat" referent="RBX97F0D413545D46A28513410428424E2B">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<bool name="BubbleChatEnabled">false</bool>
@@ -310,7 +1239,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="TimerService" referent="RBX640AC2DDA83A42EE8FF6694FCCC52E37">
+	<Item class="TimerService" referent="RBX9B57E3D6A9F34FBDA7A11F51F79186C1">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Instance</string>
@@ -318,10 +1247,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="Players" referent="RBX738D71E9DE55461C8E49F5AE23CEEF4A">
+	<Item class="Players" referent="RBX19C9783EF8B44924817445C6D27C2718">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
-			<bool name="CharacterAutoLoads">true</bool>
+			<bool name="CharacterAutoLoads">false</bool>
 			<int name="MaxPlayersInternal">12</int>
 			<string name="Name">Players</string>
 			<int name="PreferredPlayersInternal">0</int>
@@ -330,7 +1259,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="ReplicatedFirst" referent="RBX17BCE8FC3B7640EB8F80E1359F8214D4">
+	<Item class="ReplicatedFirst" referent="RBX15BB2F8ABFE04ACA81B161FEA31BE011">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">ReplicatedFirst</string>
@@ -338,7 +1267,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="TweenService" referent="RBX52DF2B2B537642219202DD6E11B25465">
+	<Item class="TweenService" referent="RBX02566E55129F4691A592A53A50F59782">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">TweenService</string>
@@ -346,7 +1275,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="PermissionsService" referent="RBX4CA45D888E9840038B99F449942E6431">
+	<Item class="PermissionsService" referent="RBX369E5849293E4334B03ABF3A17064642">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">PermissionsService</string>
@@ -354,7 +1283,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="PlayerEmulatorService" referent="RBX86828BFAFF4F4D038473EDA8726D54D1">
+	<Item class="PlayerEmulatorService" referent="RBXF3F98CC433EF450ABFF76310EBA9FA6A">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="EmulatedCountryCode"></string>
@@ -366,7 +1295,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="StudioData" referent="RBXDDD8D9A8180240EB9E1E9FB92C87695B">
+	<Item class="StudioData" referent="RBX3DDF8E7571E64E6E8BD9572713AA94FD">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<int64 name="CommitInflightAuthorId">0</int64>
@@ -381,7 +1310,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="StarterPlayer" referent="RBX14D3C2C7E31E48559762B4279EBE1848">
+	<Item class="StarterPlayer" referent="RBXE1C798017FEC45E09304A2EF5BB40C93">
 		<Properties>
 			<bool name="AllowCustomAnimations">true</bool>
 			<BinaryString name="AttributesSerialize"></BinaryString>
@@ -425,14 +1354,14 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 			<bool name="UserEmotesEnabled">true</bool>
 		</Properties>
-		<Item class="StarterPlayerScripts" referent="RBX5627DB713F4546FFAA73BB56249C667F">
+		<Item class="StarterPlayerScripts" referent="RBX9B9A484F6398449284669AFCB4DA61B7">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">StarterPlayerScripts</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="LocalScript" referent="RBX336C6BC0A6CE47B0B239FD2727C5503C">
+			<Item class="LocalScript" referent="RBXF953701257B448B686F073C52EED7169">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<bool name="Disabled">false</bool>
@@ -445,7 +1374,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="StarterCharacterScripts" referent="RBX82F25C772DC74D22A5CAAC7CBE5DC72B">
+		<Item class="StarterCharacterScripts" referent="RBX50DCA33A5F974E6EB189E8EA06B7F395">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">StarterCharacterScripts</string>
@@ -454,7 +1383,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			</Properties>
 		</Item>
 	</Item>
-	<Item class="StarterPack" referent="RBXBA7983E0CFEC43708F863A0F15C4F5C6">
+	<Item class="StarterPack" referent="RBXAC26DB0900BE4F8AB9D4D95B26570B92">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">StarterPack</string>
@@ -462,7 +1391,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="StarterGui" referent="RBX260162D1354B4627B856D5FC95BB2CEB">
+	<Item class="StarterGui" referent="RBX646BFD819FA342E79E975792C9DA8B65">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">StarterGui</string>
@@ -473,7 +1402,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="LocalizationService" referent="RBX37DDEFBDEE2C47A39DFF32BF58094D9D">
+	<Item class="LocalizationService" referent="RBXB2A8D51119CE44FFADD9E904407CD9E1">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">LocalizationService</string>
@@ -481,7 +1410,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="TeleportService" referent="RBX68FA72C0C52C4CC5AEA0B5BF6469159B">
+	<Item class="TeleportService" referent="RBXD4B479A2BBFE438A8CDBB0E0840CA1A2">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Teleport Service</string>
@@ -489,7 +1418,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="CollectionService" referent="RBX28CBEC52B74146BDA47AE296234162FF">
+	<Item class="CollectionService" referent="RBX2964BC721348403CB4205BF380C2C903">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">CollectionService</string>
@@ -497,7 +1426,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="PhysicsService" referent="RBXC100A80FB5FA4F8EA05BD2F210BC291C">
+	<Item class="PhysicsService" referent="RBXC2CB3ECF14C9417AA786F5602760DA04">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">PhysicsService</string>
@@ -505,7 +1434,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="Geometry" referent="RBX090E8AFA6A4C4924B5CCE6B68DFA2402">
+	<Item class="Geometry" referent="RBX504CA3E65FCB43018707C7D7D71CEBD0">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Geometry</string>
@@ -513,7 +1442,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="InsertService" referent="RBXB708C34494A54ACB830798CAE73A724D">
+	<Item class="InsertService" referent="RBXEAACEA0BCDA8498F9E77AF2C2CA14960">
 		<Properties>
 			<bool name="AllowClientInsertModels">false</bool>
 			<bool name="AllowInsertFreeModels">false</bool>
@@ -523,7 +1452,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="GamePassService" referent="RBXEBE9F1953FAE4DC7AE874E4F3AAAAA0F">
+	<Item class="GamePassService" referent="RBXBF3FB4BD7B1C4AD8A0D922840E9FFE5B">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">GamePassService</string>
@@ -531,7 +1460,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="Debris" referent="RBX3DFA7EA88E6446249A7F5FCA1A55453A">
+	<Item class="Debris" referent="RBXFEDA53275D2E47D89E5DB6568BF3EDAC">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<int name="MaxItems">1000</int>
@@ -540,7 +1469,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="CookiesService" referent="RBXF59751F5E22343A7A430AE636BF5BEE8">
+	<Item class="CookiesService" referent="RBX88BDE98E42CE4534BC60AD44AB67533F">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">CookiesService</string>
@@ -548,7 +1477,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="VRService" referent="RBXC644771559DB493CB791EB9BCA6376AB">
+	<Item class="VRService" referent="RBX769AD0670D1A421BA5568F22078EC578">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">VRService</string>
@@ -556,7 +1485,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="ContextActionService" referent="RBX30D528F1D404424BB7ABF20CD342AF00">
+	<Item class="ContextActionService" referent="RBXB16D869FF8CB4B4C831211E845B0496D">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">ContextActionService</string>
@@ -564,7 +1493,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="ScriptService" referent="RBXF7D38987910347D8850E668AB868E9ED">
+	<Item class="ScriptService" referent="RBX54563B974EA14AC3B3749BF5E04446DB">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Instance</string>
@@ -572,7 +1501,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="AssetService" referent="RBX57CFB9A981D84FAEB61AEC0D48C77FE7">
+	<Item class="AssetService" referent="RBX0CB27F8132DF4AF09A3F6F6B30024ED9">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">AssetService</string>
@@ -580,7 +1509,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="TouchInputService" referent="RBX0726B8C9E8C741C593C527D0026F7337">
+	<Item class="TouchInputService" referent="RBX40DA330AC7744330ADB57A6FB8635FDD">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">TouchInputService</string>
@@ -588,7 +1517,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="AnalyticsService" referent="RBX791DE0657C5F4CA5984A8C2B9C9840C7">
+	<Item class="AnalyticsService" referent="RBX7A1F607EC1874F92B4608618825072B1">
 		<Properties>
 			<string name="ApiKey"></string>
 			<BinaryString name="AttributesSerialize"></BinaryString>
@@ -597,7 +1526,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="Selection" referent="RBX94C90D51578D485DB4C2091DB0FC5189">
+	<Item class="Selection" referent="RBX785E48F5BD8A4F5788E7294C967DCEE0">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Selection</string>
@@ -605,7 +1534,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="ServerScriptService" referent="RBX384151C6452D4A39A7E3E1A8EEE0688B">
+	<Item class="ServerScriptService" referent="RBX4F72FD0D764F46CF8AEDF4BE501D74F0">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<bool name="LoadStringEnabled">false</bool>
@@ -613,7 +1542,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Script" referent="RBX23E2AD9B30424621A03DF52F77F37162">
+		<Item class="Script" referent="RBXFBC727BA3D064631B0BA7FF8933AC6D9">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<bool name="Disabled">false</bool>
@@ -626,21 +1555,21 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			</Properties>
 		</Item>
 	</Item>
-	<Item class="ServerStorage" referent="RBX78A5EE43F79A457994DABE3B8846308E">
+	<Item class="ServerStorage" referent="RBX52DA62AFD57847A4BA20C78713B1F28A">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">ServerStorage</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Folder" referent="RBXD3A14C4D6BD14BEB9EF27026A5405C6F">
+		<Item class="Folder" referent="RBX7D098DB282514547861C0C32200818CE">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">scenes</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Model" referent="RBXB444EE4A01D94730A87BFA6C7F850A6D">
+			<Item class="Model" referent="RBX16F5964E3A69481D91CAC698752A8355">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LevelOfDetail">0</token>
@@ -683,7 +1612,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Part" referent="RBXEDE3B334077F4FA6803BA05E7492E1C8">
+				<Item class="Part" referent="RBX2F3EADD4B1354261B6B57BC9797E7380">
 					<Properties>
 						<bool name="Anchored">false</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -760,7 +1689,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<Z>1</Z>
 						</Vector3>
 					</Properties>
-					<Item class="Attachment" referent="RBX25EF9CEADD61402B90D5666844696BD4">
+					<Item class="Attachment" referent="RBXB23E9B366B1E4DABB44E479DAF72355C">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -783,10 +1712,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<bool name="Visible">false</bool>
 						</Properties>
 					</Item>
-					<Item class="BallSocketConstraint" referent="RBX89F61195AEBD48E29649A8B1BC3F6F67">
+					<Item class="BallSocketConstraint" referent="RBX55B09E4DF3CB491FB0FBE8E81B236EBE">
 						<Properties>
-							<Ref name="Attachment0">RBX25EF9CEADD61402B90D5666844696BD4</Ref>
-							<Ref name="Attachment1">RBXBB9ABF8B61D7453D91C6FF527C65BF32</Ref>
+							<Ref name="Attachment0">RBXB23E9B366B1E4DABB44E479DAF72355C</Ref>
+							<Ref name="Attachment1">RBX669DC3875BA24487993C1DAE847AFE1D</Ref>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<int name="Color">1009</int>
 							<bool name="Enabled">true</bool>
@@ -804,7 +1733,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<bool name="Visible">false</bool>
 						</Properties>
 					</Item>
-					<Item class="BodyGyro" referent="RBX5353ED6FB7FF4CC28D61C08C5C455DDC">
+					<Item class="BodyGyro" referent="RBXDFC853FCABA64F0A8D29F29456E9C8D6">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -833,7 +1762,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<BinaryString name="Tags"></BinaryString>
 						</Properties>
 					</Item>
-					<Item class="BodyVelocity" referent="RBX8B943DC744C34E4D93C4E4FBB77A18E7">
+					<Item class="BodyVelocity" referent="RBX9CDE9B85AA114F3BA76D8CA747EB9802">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<Vector3 name="MaxForce">
@@ -852,7 +1781,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							</Vector3>
 						</Properties>
 					</Item>
-					<Item class="BodyThrust" referent="RBX507B53718FE441B184A4C213243FC5E7">
+					<Item class="BodyThrust" referent="RBXF49AC025B8404818A5905A215237F885">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<Vector3 name="Force">
@@ -871,7 +1800,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						</Properties>
 					</Item>
 				</Item>
-				<Item class="Part" referent="RBX24F53B222056438AB770EB1A69C5315E">
+				<Item class="Part" referent="RBX7AD0AF40FFC84A90B01C4D406488135E">
 					<Properties>
 						<bool name="Anchored">false</bool>
 						<BinaryString name="AttributesSerialize"></BinaryString>
@@ -948,7 +1877,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<Z>5</Z>
 						</Vector3>
 					</Properties>
-					<Item class="Attachment" referent="RBXBB9ABF8B61D7453D91C6FF527C65BF32">
+					<Item class="Attachment" referent="RBX669DC3875BA24487993C1DAE847AFE1D">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -974,14 +1903,14 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBX427F7D90E5C1482A9F4AD72BE03DAD55">
+		<Item class="Folder" referent="RBXEA96A857DF974D608226FDEC6E06DBB9">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">remotes</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="RemoteFunction" referent="RBX569CF2A01448424EBB1B29DF418790DA">
+			<Item class="RemoteFunction" referent="RBXA881BCBF45144504B54F3AC05C01D8DA">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">RemoteFunction</string>
@@ -991,21 +1920,21 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 			</Item>
 		</Item>
 	</Item>
-	<Item class="ReplicatedStorage" referent="2">
+	<Item class="ReplicatedStorage" referent="RBX77FA1964865B406489CF9C05C5F138BF">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">ReplicatedStorage</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Folder" referent="RBX6A3394A84787436497025C44BDF4B889">
+		<Item class="Folder" referent="RBXFDA1DC62AB3A4A408CA1D2C7FA11E633">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Source</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="ModuleScript" referent="RBX7DCBC43AD37842D5B40053C6DA4561D8">
+			<Item class="ModuleScript" referent="RBX4375BA14C08F4C9BBDC473CFAB21A53F">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
@@ -1022,6 +1951,10 @@ end
 function module.printf(str, ...)
     local formatted_str = string.format(str, ...)
     print(formatted_str)
+end
+function module.warnf(str, ...)
+    local formated_str = string.format(str, ...)
+    warn(formated_str)
 end
 function module.dir(path)
     local subs = string.split(path, "/")
@@ -1058,7 +1991,7 @@ return module
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBX255BA52AE019435CBACC06A216DF3918">
+			<Item class="ModuleScript" referent="RBX5AE3260919B84B89AD3EC41A919D810A">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
@@ -1073,6 +2006,9 @@ function module.init()
     local remote_function = Instance.new("RemoteFunction", remotes)
     local remote_event = Instance.new("RemoteEvent", remotes)
 
+    -- disable player walking
+    std.create("Humanoid", game.StarterPlayer, {WalkSpeed = 0})
+
     local balls = {}
 
     remote_function.OnServerInvoke = function(client, item, ...)
@@ -1084,9 +2020,9 @@ function module.init()
     remote_event.OnServerEvent:Connect(function(client, item, ...)
         local args = {...}
         if item == "x" then
-            balls[client.UserId]:translate_x(args[1])
+            balls[client.UserId]:apply_force_x(args[1])
         elseif item == "y" then
-            balls[client.UserId]:translate_y(args[1])
+            balls[client.UserId]:apply_force_y(args[1])
         end
     end)
 end
@@ -1096,94 +2032,85 @@ return module
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXACE41716C26E42F9A11F99A5926FCABA">
+			<Item class="ModuleScript" referent="RBX162059BA896745B4A8C6C760608161DA">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
 					<string name="Name">client_handler</string>
 					<string name="ScriptGuid">{86378096-CFC9-4510-9BEE-BD76C7B08302}</string>
-					<ProtectedString name="Source"><![CDATA[--clientsideonly
+					<ProtectedString name="Source"><![CDATA[-- clientsideonly
 local run_service = game:GetService("RunService")
 local user_input_service = game:GetService("UserInputService")
 local std = require(game.ReplicatedStorage.Source.std)
+local ui = std.import("client_ui")
+local cam = std.import("client_camera")
 local module = {}
 function module.init()
-    local remote_function = game.ReplicatedStorage:WaitForChild("remotes"):WaitForChild("RemoteFunction")
-    local remote_event = game.ReplicatedStorage:WaitForChild("remotes"):WaitForChild("RemoteEvent")
-
-    remote_function:InvokeServer("spawn")
-    user_input_service.InputBegan:Connect(function(input, process)
-        if not process then
-            if input.KeyCode == Enum.KeyCode.W then
-                remote_event:FireServer("y", true)
-            elseif input.KeyCode == Enum.KeyCode.A then
-                remote_event:FireServer("x", true)
-            elseif input.KeyCode == Enum.KeyCode.S then
-                remote_event:FireServer("y", false)
-            elseif input.KeyCode == Enum.KeyCode.D then
-                remote_event:FireServer("x", false)
-            end
-        end
-    end)
-    user_input_service.InputEnded:Connect(function(input, process)
-        if not process then
-            if input.KeyCode == Enum.KeyCode.W then
-                remote_event:FireServer("y", false)
-            elseif input.KeyCode == Enum.KeyCode.A then
-                remote_event:FireServer("x", false)
-            elseif input.KeyCode == Enum.KeyCode.S then
-                remote_event:FireServer("y", true)
-            elseif input.KeyCode == Enum.KeyCode.D then
-                remote_event:FireServer("x", true)
-            end
-        end
-    end)
-    run_service.RenderStepped:Connect(function()
-        
-    end)
-end
-return module]]></ProtectedString>
-					<int64 name="SourceAssetId">-1</int64>
-					<BinaryString name="Tags"></BinaryString>
-				</Properties>
-			</Item>
-			<Item class="ModuleScript" referent="RBX3FAB5EDE39A045B4BA2B7068FC151896">
-				<Properties>
-					<BinaryString name="AttributesSerialize"></BinaryString>
-					<Content name="LinkedSource"><null></null></Content>
-					<string name="Name">client_ball</string>
-					<string name="ScriptGuid">{7CA990EC-0605-4978-9BE7-405BB6F7CD5C}</string>
-					<ProtectedString name="Source"><![CDATA[-- clientsideonly
-local velocity = 1000
-local module = {}
-module.__index = module
-function module.new()
     local remote_function = game.ReplicatedStorage:WaitForChild("remotes")
                                 :WaitForChild("RemoteFunction")
+    local remote_event = game.ReplicatedStorage:WaitForChild("remotes")
+                             :WaitForChild("RemoteEvent")
+
+    local cam_sys = cam.new()
+    local ui_sys = ui.new()
+
+    local playing = false
+
+    -- disable core guis
+    game.StarterGui:SetCoreGuiEnabled("PlayerList", false)
+    game.StarterGui:SetCoreGuiEnabled("Backpack", false)
+
+    -- events
     remote_function:InvokeServer("spawn")
-    local new_instance = workspace:WaitForChild(
-                             tostring(game.Players.LocalPlayer.UserId))
-    local new_object = {instance = new_instance}
-    setmetatable(new_object, module)
-    return new_object
-end
-function module:move_y(positive)
-    if positive then
-        self.instance.center.Velocity =
-            self.instance.center.Velocity + Vector3.new(0, 0, velocity)
-    else
-        self.instance.center.Velocity =
-            self.instance.center.Velocity - Vector3.new(0, 0, velocity)
-    end
-end
-function module:move_x(positive)
-    if positive then
-        self.instance.center.Velocity =
-            self.instance.center.Velocity + Vector3.new(velocity, 0, 0)
-    else
-        self.instance.center.Velocity =
-            self.instance.center.Velocity - Vector3.new(velocity, 0, 0)
-    end
+    user_input_service.InputBegan:Connect(
+        function(input, process)
+            if not process then
+                if playing then
+                    if input.KeyCode == Enum.KeyCode.W then
+                        remote_event:FireServer("y", true)
+                    elseif input.KeyCode == Enum.KeyCode.A then
+                        remote_event:FireServer("x", true)
+                    elseif input.KeyCode == Enum.KeyCode.S then
+                        remote_event:FireServer("y", false)
+                    elseif input.KeyCode == Enum.KeyCode.D then
+                        remote_event:FireServer("x", false)
+                    end
+                end
+            end
+        end)
+    user_input_service.InputEnded:Connect(
+        function(input, process)
+            if not process then
+                if playing then
+                    if input.KeyCode == Enum.KeyCode.W then
+                        remote_event:FireServer("y", false)
+                    elseif input.KeyCode == Enum.KeyCode.A then
+                        remote_event:FireServer("x", false)
+                    elseif input.KeyCode == Enum.KeyCode.S then
+                        remote_event:FireServer("y", true)
+                    elseif input.KeyCode == Enum.KeyCode.D then
+                        remote_event:FireServer("x", true)
+                    end
+                end
+            end
+        end)
+    run_service.RenderStepped:Connect(function()
+        cam_sys:update()
+        ui_sys:update()
+    end)
+    local play_button_ready = true
+    ui_sys.screen_gui.main_menu.play_button.MouseButton1Down:Connect(
+        function()
+            if not playing and play_button_ready then
+                play_button_ready = false
+                remote_function:InvokeServer("Spawn")
+                ui_sys:update_mode(2)
+                cam_sys:update_mode(2)
+                playing = true
+                wait(5)
+                play_button_ready = true
+            end
+        end)
 end
 return module
 ]]></ProtectedString>
@@ -1191,7 +2118,7 @@ return module
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="ModuleScript" referent="RBXBFE407D5514245E4A6FFA8743202BA82">
+			<Item class="ModuleScript" referent="RBXD10EA1FE725542AAB339F30E9165278F">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<Content name="LinkedSource"><null></null></Content>
@@ -1199,17 +2126,175 @@ return module
 					<string name="ScriptGuid">{3F6CC9F1-409C-453B-9F40-1C3ADBEA9049}</string>
 					<ProtectedString name="Source"><![CDATA[-- serversideonly
 local std = require(game.ReplicatedStorage.Source.std)
-local function build_ball(client)
-    local ball =
-        std.create("Model", workspace, {Name = tostring(client.UserId)})
-    local sphere = std.create("Part", ball, {
+local build = std.import("build")
+local ball = {}
+ball.__index = ball
+function ball.new(client)
+    local new_instance = build.ball(client)
+    local new_object = {
+        instance = new_instance,
+        max_force = 1000,
+        health = 100
+    }
+    setmetatable(new_object, ball)
+    return new_object
+end
+function ball:apply_force_x(positive)
+    if positive then
+        self.instance.center.BodyThrust.Force =
+            self.instance.center.BodyThrust.Force + Vector3.new(self.max_force, 0, 0)
+    else
+        self.instance.center.BodyThrust.Force =
+            self.instance.center.BodyThrust.Force - Vector3.new(self.max_force, 0, 0)
+    end
+end
+function ball:apply_force_y(positive)
+    if positive then
+        self.instance.center.BodyThrust.Force =
+            self.instance.center.BodyThrust.Force + Vector3.new(0, 0, self.max_force)
+    else
+        self.instance.center.BodyThrust.Force =
+            self.instance.center.BodyThrust.Force - Vector3.new(0, 0, self.max_force)
+    end
+end
+function ball:remove()
+    
+end
+function ball:on_remove()
+    
+end
+return ball
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXEBAE4DCB903D423E82F07BDF5C6506E9">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">client_camera</string>
+					<string name="ScriptGuid">{91FF120B-C0AA-4765-BD2B-A6C37F6752B3}</string>
+					<ProtectedString name="Source"><![CDATA[-- clientsideonly
+local configs = require(game.ReplicatedStorage.Source.configs)
+local cam = {}
+cam.__index = cam
+function cam.new()
+    local new_cam = {
+        mode = 1, -- 1=lock; 2=ball;
+        cam = workspace.CurrentCamera,
+        client = game.Players.LocalPlayer,
+        last_cf = CFrame.new()
+    }
+    setmetatable(new_cam, cam)
+    return new_cam
+end
+function cam:update_mode(target_mode) self.mode = target_mode end
+function cam:update() -- runs each frame
+    local cases = {
+        [1] = function() -- lock
+            self.cam.CFrame = self.last_cf
+        end,
+        [2] = function() -- ball
+            local ball_center = workspace.Players[tostring(self.client.UserId)]
+                                    .center
+            self.cam.CFrame = CFrame.lookAt(ball_center.Position + configs.cam_offset,
+                                            ball_center.Position)
+            -- self.cam.CFrame = 
+        end
+    }
+    xpcall(cases[self.mode], function(err) warn(err) end)
+end
+return cam
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX058AFB52A89A4EFEB09886874EC2F774">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">client_ui</string>
+					<string name="ScriptGuid">{DE98F864-12E9-4DE0-AD32-FA134EBF8D20}</string>
+					<ProtectedString name="Source"><![CDATA[--clientsideonly
+local std = require(game.ReplicatedStorage.Source.std)
+local configs = std.import("configs")
+local build = std.import("build")
+local ui = {}
+ui.__index = ui
+function ui.new()
+    local new_ui = {
+        screen_gui = build.ui(),
+        mode = 1,
+        t0 = time(),
+        lifetime = 0
+    }
+    setmetatable(new_ui, ui)
+    return new_ui
+end
+function ui:swap_frame(target_mode)
+    for _, element in pairs(self.screen_gui:GetChildren())do
+        if element.Name == configs.modes[target_mode] then
+            element.Visible = true
+        else
+            element.Visible = false
+        end
+    end
+end
+function ui:update_mode(target_mode)
+    self:swap_frame(target_mode)
+    self.mode = target_mode
+    if self.mode == 2 then
+        self.t0 = time()
+    end
+end
+function ui:update()--runs each frame
+    local cases = {
+        [1] = function()--mainmenu
+            --for future use
+        end,
+        [2] = function()--ingame
+            self.lifetime += (time()-self.t0)
+            self.t0 = time()
+            self.screen_gui.ingame.timer_text.Text = tostring(math.ceil(self.lifetime))
+        end
+    }
+    xpcall(cases[self.mode], function(err)
+        warn(err)
+    end)
+end
+function ui:clr()
+    self.screen_gui:Destroy()
+    self = nil
+end
+return ui]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX0D0CDE1D97FC439092A0BD7DAEEAC3D2">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">build</string>
+					<string name="ScriptGuid">{788B933B-DFEE-4D06-99F8-D66EAF6A3B16}</string>
+					<ProtectedString name="Source"><![CDATA[-- replicated
+-- contains all instructions to build instances with script
+-- this is done because this project utilizes rojo
+local std = require(game.ReplicatedStorage.Source.std)
+local build = {}
+function build.ball(client)
+    local instance = std.create("Model", workspace.Players,
+                                {Name = tostring(client.UserId)})
+    local sphere = std.create("Part", instance, {
         Name = "sphere",
         Size = Vector3.new(5, 5, 5),
         Position = Vector3.new(0, 0, 0),
         Shape = Enum.PartType.Ball,
         CanCollide = true
     })
-    local center = std.create("Part", ball, {
+    local center = std.create("Part", instance, {
         Name = "center",
         Size = Vector3.new(1, 1, 1),
         Position = Vector3.new(0, 0, 0),
@@ -1220,48 +2305,82 @@ local function build_ball(client)
     local a1 = std.create("Attachment", sphere)
     std.create("BallSocketConstraint", center,
                {Attachment0 = a0, Attachment1 = a1})
-    -- std.create("BodyVelocity", center, {Velocity = Vector3.new(0, 0, 0)})
+    std.create("BodyThrust", center, {Force = Vector3.new(0, 0, 0)})
     std.create("BodyGyro", center)
 
-    ball.PrimaryPart = ball.center
-    ball.PrimaryPart:SetNetworkOwner(client)
-    return ball
+    instance.PrimaryPart = instance.center
+    instance.PrimaryPart:SetNetworkOwner(client)
+    return instance
 end
-local module = {}
-module.__index = module
-function module.new(client)
-    local new_instance = build_ball(client)
-    local new_object = {instance = new_instance, velocity = 100}
-    setmetatable(new_object, module)
-    return new_object
+function build.ui()
+    --[[
+        struct
+        ScreenGui {
+            main_menu {
+                play_buton
+            }
+            ingame {
+                timer_text
+            }
+        }
+    ]]
+    local new_screen_gui = Instance.new("ScreenGui",  game.Players.LocalPlayer.PlayerGui)
+    local main_menu_frame = std.create("Frame", new_screen_gui, {
+        Name = "main_menu",
+        Size = UDim2.new(1,0,1,0),
+        BackgroundTransparency = 1
+    })
+    local ingame_frame = std.create("Frame", new_screen_gui, {
+        Name = "ingame",
+        Size = UDim2.new(1,0,1,0),
+        BackgroundTransparency = 1,
+        Visible = false
+    })
+    local play_button = std.create("TextButton", main_menu_frame, {
+        Name = "play_button",
+        Size = UDim2.new(1,0,1,0),
+        BackgroundTransparency = 1,
+        TextColor3 = Color3.new(1,1,1),
+        TextXAlignment = Enum.TextXAlignment.Center,
+        FontSize = Enum.FontSize.Size42,
+        Font = Enum.Font.RobotoCondensed,
+        Text = "Start!"
+    })
+    local timer_text = std.create("TextLabel", ingame_frame, {
+        Name = "timer_text",
+        Size = UDim2.new(1,0,.1,0),
+        BackgroundTransparency = 1,
+        TextColor3 = Color3.new(1,1,1),
+        TextScaled = true,
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Font = Enum.Font.RobotoCondensed,
+        Text = "0"
+    })
+    return new_screen_gui
 end
-function module:translate_x(positive)
-    if positive then
-        self.instance.center.Velocity =
-            self.instance.center.Velocity + Vector3.new(self.velocity, 0, 0)
-    else
-        self.instance.center.Velocity =
-            self.instance.center.Velocity - Vector3.new(self.velocity, 0, 0)
-    end
-end
-function module:translate_y(positive)
-    if positive then
-        self.instance.center.Velocity =
-            self.instance.center.Velocity + Vector3.new(0, 0, self.velocity)
-    else
-        self.instance.center.Velocity =
-            self.instance.center.Velocity - Vector3.new(0, 0, self.velocity)
-    end
-end
-return module
+return build
 ]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX6649AD67D1F54E4FA4C0B8FF8403F99F">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">configs</string>
+					<string name="ScriptGuid">{FFB5D992-AEE7-4F1D-814B-F1F25CF8FA11}</string>
+					<ProtectedString name="Source"><![CDATA[return {
+    cam_offset = Vector3.new(0, 50, -40),
+    modes = {"main_menu", "ingame"}
+}]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
 		</Item>
 	</Item>
-	<Item class="LuaWebService" referent="RBX26A373D1B5E049D6A4B71EA5FF983DC2">
+	<Item class="LuaWebService" referent="RBXFF2CA73A6D244E50900914AA1CD05CC0">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">Instance</string>
@@ -1269,7 +2388,7 @@ return module
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="Lighting" referent="1">
+	<Item class="Lighting" referent="RBX3B2F37F710E04D4CAA3F9EE05CC5F6EF">
 		<Properties>
 			<Color3 name="Ambient">
 				<R>0</R>
@@ -1314,7 +2433,7 @@ return module
 			<string name="TimeOfDay">14:00:00</string>
 		</Properties>
 	</Item>
-	<Item class="HttpService" referent="0">
+	<Item class="HttpService" referent="RBX7547E701FDF54782B5113623E4D6BC0C">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<bool name="HttpEnabled">true</bool>
@@ -1323,7 +2442,7 @@ return module
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="LanguageService" referent="RBX437548DC7EAD459AAE17F334D20D3D82">
+	<Item class="LanguageService" referent="RBX2B8C6AFA149F44F3B97EC4776A7B3E27">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">LanguageService</string>
@@ -1331,7 +2450,7 @@ return module
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
 	</Item>
-	<Item class="TestService" referent="RBX3C7CA8F92F364EFC802DC0BD8D530074">
+	<Item class="TestService" referent="RBXE805C3E4155F41DCBED9E92984636DFF">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<bool name="AutoRuns">true</bool>
