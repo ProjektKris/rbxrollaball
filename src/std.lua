@@ -10,6 +10,10 @@ function module.printf(str, ...)
     local formatted_str = string.format(str, ...)
     print(formatted_str)
 end
+function module.warnf(str, ...)
+    local formated_str = string.format(str, ...)
+    warn(formated_str)
+end
 function module.dir(path)
     local subs = string.split(path, "/")
     local instance = game
