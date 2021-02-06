@@ -1,6 +1,7 @@
 -- replicated
 -- contains all instructions to build instances with script
 -- this is done because this project utilizes rojo
+local collection_service = game:GetService("CollectionService")
 local std = require(game.ReplicatedStorage.Source.std)
 local build = {}
 function build.ball(client)
@@ -29,6 +30,7 @@ function build.ball(client)
 
     instance.PrimaryPart = instance.center
     instance.PrimaryPart:SetNetworkOwner(client)
+    collection_service:AddTag(sphere, "player")
     return instance
 end
 function build.ui()
@@ -76,5 +78,10 @@ function build.ui()
         Text = "0"
     })
     return new_screen_gui
+end
+function build.chip(property)
+    local new_chip = std.create("Part", workspace.Chips, property)
+    collection_service:AddTag(new_chip, "chip")
+    return new_chip
 end
 return build
