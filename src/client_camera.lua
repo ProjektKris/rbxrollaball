@@ -23,7 +23,6 @@ function cam:update() -- runs each frame
                                     .center
             self.cam.CFrame = CFrame.lookAt(ball_center.Position + configs.cam_offset,
                                             ball_center.Position)
-            -- self.cam.CFrame = 
         end
     }
     xpcall(cases[self.mode], function(err) warn(err) end)
